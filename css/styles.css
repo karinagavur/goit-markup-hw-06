@@ -732,3 +732,8 @@ a {
   border: none;
   fill: #f4f4fd;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}

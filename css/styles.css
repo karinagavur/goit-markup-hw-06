@@ -890,43 +890,61 @@ button {
 
 @media screen and (min-width: 768px) {
 
-    .box-footer {
-        margin-right: 24px;
+    .page-footer {
+        display: flex;
     }
 
     .footer-logo {
-            display: inline-block;
-                    }
+        display: inline-block;
+    }
 
-                    .paragraph-footer-two {
-                        display: block;
-                    }
+    .paragraph-footer {
+        width: 264px;
+    }
 
-                    .footer-list-media {
-                        justify-content: flex-start;
-                    }
+    .paragraph-footer-two {
+        display: block;
+    }
 
-                    .subscribe-paragraph {
-                        display: block;
-                    }
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        padding: 0 108px;
+    }
 
-                    .subscribe-form {
-                        display: flex;
-                        gap: 24px;
-                    }
+    .footer-list-media {
+        justify-content: flex-start;
+    }
 
-                    .subscribe-btn {
-                        margin: 0;
-                    }
+    .subscribe-paragraph {
+        display: block;
+    }
 
-                    
-                                        
+    .subscribe-form {
+        display: flex;
+        gap: 24px;
+    }
+
 }
 
 @media screen and (min-width: 1158px) {
 
     .page-footer {
-                    padding: 100px 0;
-        }
-    
+        padding: 100px 0;
+    }
+
+    .box-footer {
+        margin-right: 120px;
+    }
+
+    .footer-container {
+        flex-wrap: nowrap;
+    }
+
+    .subscribe-div {
+        margin-left: 80px;
+    }
+
 }
